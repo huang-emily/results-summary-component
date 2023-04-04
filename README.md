@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./assets/results-component.png)
+![screenshot of my attempt](./assets/results-summary-component.png)
 
 ### Links
 
