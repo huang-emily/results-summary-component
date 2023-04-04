@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="./assets/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Results summary component</title>
+</head>
+<body>
+  <div id="score-card" class="row">
+    <div class="result-card">
+      <p class="header">Your Result</p>
+      <div class="circle">
+        <h1>76</h1>
+        <p class="circle-out-of">of 100</p>
+      </div>
+ 
+      <div class="result-description">
+        <h2 class="result-classification">Great</h2>
+        <p class="result-paragraph">You scored higher than 65% of the people who have taken these tests.</p>
+      </div>
+    </div>
+
+    <div class="summary-section">
+      <p class="header">Summary</p>
+
+      <div id="reaction" class="summary-category">
+        <div class="summary-title">
+          <img src="./assets/images/icon-reaction.svg" alt="reaction icon"/>
+          <p class="category-name">Reaction</p>
+        </div>
+        <div class="summary-score">
+          <p class="actual-score">80</p>
+          <p class="out-of">/ 100</p>
+        </div>
+      </div>
+
+      <div id="memory" class="summary-category">
+        <div class="summary-title">
+          <img src="./assets/images/icon-memory.svg" alt="memory icon"/>
+          <p class="category-name">Memory</p>
+
+        </div>
+        <div class="summary-score">
+          <p class="actual-score">92</p>
+          <p class="out-of">/ 100</p>
+        </div>
+      </div>
+
+      <div id="verbal" class="summary-category">
+        <div class="summary-title">
+          <img src="./assets/images/icon-verbal.svg" alt="verbal icon"/>
+          <p class="category-name">Verbal</p>
+
+        </div>
+        <div class="summary-score">
+          <p class="actual-score">61</p>
+          <p class="out-of">/ 100</p>
+        </div>
+      </div>
+
+      <div id="visual" class="summary-category">
+        <div class="summary-title">
+          <img src="./assets/images/icon-visual.svg" alt="visual icon"/>
+          <p class="category-name">Visual</p>
+
+        </div>
+        <div class="summary-score">
+          <p class="actual-score">72</p>
+          <p class="out-of">/ 100</p>
+        </div>
+      </div>
+
+      <button>Continue</button>
+    </div>
+  </div>
+  
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener">Frontend Mentor</a>. 
+      Coded by <a href="#">Emily</a>.
+    </div>
+  </footer>
+</body>
+</html>
